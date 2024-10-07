@@ -1,9 +1,4 @@
 
-def suma (a, b, c = 0, d = 0):
-    if c != 0 and d  != 0:
-        return a + b + c + d
-    elif c != 0:
-        return a + b + c
-    else: return a + b
-
-print(suma(2,2,2,22,54154,454)) 
+def suma (* num):
+     return (sum(num))
+print(suma(12,156,12,5115,6161,1561561,161))
